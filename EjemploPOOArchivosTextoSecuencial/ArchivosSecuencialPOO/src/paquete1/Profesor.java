@@ -18,4 +18,8 @@ public class Profesor{
     public String obtenerTipo(){
         return tipo;
     }
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Tipo: " + tipo;
+    }
 }
